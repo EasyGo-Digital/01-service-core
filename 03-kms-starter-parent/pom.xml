@@ -18,17 +18,6 @@
         <version>1.0.241015-S0946</version>
     </parent>
 
-    <distributionManagement>
-        <repository>
-            <id>nexus-release</id>
-            <url>https://pkgs.dev.azure.com/easygo-it-information-solutions/_packaging/release/maven/v1</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <url>https://pkgs.dev.azure.com/easygo-it-information-solutions/_packaging/release/maven/v1</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <profiles>
         <profile>
             <id>build-dev-localhost</id>

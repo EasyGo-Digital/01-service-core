@@ -18,17 +18,6 @@
         <version>1.0.241015-S0946</version>
     </parent>
 
-    <distributionManagement>
-        <repository>
-            <id>nexus-release</id>
-            <url>https://pkgs.dev.azure.com/easygo-it-information-solutions/_packaging/release/maven/v1</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <url>https://pkgs.dev.azure.com/easygo-it-information-solutions/_packaging/release/maven/v1</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <profiles>
         <profile>
             <id>build-dev-localhost</id>
@@ -125,4 +114,34 @@
         <plugins>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub EASYGO-IT Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/EasyGo-Digital/01-service-core</url>
+        </repository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>01-service-core</id>
+            <name>GitHub EASYGO-IT Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/EasyGo-Digital/01-service-core</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+
+        <repository>
+            <id>00-service-stack</id>
+            <name>GitHub EASYGO-IT Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/EasyGo-Digital/00-service-stack</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
