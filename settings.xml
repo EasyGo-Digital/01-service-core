@@ -138,7 +138,7 @@ under the License.
         <server>
             <id>01-service-core</id>
             <username>${env.USER_NAME}</username>
-            <password>${env.ACCESS_TOKEN}</password>
+            <password>${env.GITHUB_TOKEN}</password>
         </server>
     </servers>
 
