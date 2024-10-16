@@ -132,12 +132,12 @@ under the License.
         -->
         <server>
             <id>00-service-stack</id>
-            <username>${env.USER_NAME}</username>
+            <username>EasyGo-Digital</username>
             <password>${env.GITHUB_TOKEN}</password>
         </server>
         <server>
             <id>01-service-core</id>
-            <username>${env.USER_NAME}</username>
+            <username>EasyGo-Digital</username>
             <password>${env.GITHUB_TOKEN}</password>
         </server>
     </servers>
