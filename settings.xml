@@ -131,18 +131,14 @@ under the License.
         </server>
         -->
         <server>
-            <server>
-                <id>00-service-stack</id>
-                <username>${env.GITHUB_USERNAME}</username>
-                <password>${env.GITHUB_TOKEN}</password>
-            </server>
+            <id>00-service-stack</id>
+            <username>${env.GITHUB_USERNAME}</username>
+            <password>${env.GITHUB_TOKEN}</password>
         </server>
         <server>
-            <server>
-                <id>01-service-core</id>
-                <username>${env.GITHUB_USERNAME}</username>
-                <password>${env.GITHUB_TOKEN}</password>
-            </server>
+            <id>01-service-core</id>
+            <username>${env.GITHUB_USERNAME}</username>
+            <password>${env.GITHUB_TOKEN}</password>
         </server>
     </servers>
 
