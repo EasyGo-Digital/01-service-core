@@ -44,11 +44,19 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <resources>
-        </resources>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub EASYGO-IT Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/EasyGo-Digital/01-service-core</url>
+        </repository>
+    </distributionManagement>
 
-        <plugins>
-        </plugins>
-    </build>
+    <repositories>
+        <repository>
+            <id>github</id>
+            <name>GitHub EASYGO-IT Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/EasyGo-Digital/01-service-core</url>
+        </repository>
+    </repositories>
 </project>

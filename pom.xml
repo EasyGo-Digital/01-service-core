@@ -17,13 +17,6 @@
 
     <packaging>pom</packaging>
 
-    <parent>
-        <groupId>eu.easygo-it.services</groupId>
-        <artifactId>web-app-microservices</artifactId>
-        <version>1.0.241015-S0946</version>
-        <relativePath>../pom.xml</relativePath>
-    </parent>
-
     <modules>
         <module>01-kms-jpa</module>
         <module>02-kms-shared</module>

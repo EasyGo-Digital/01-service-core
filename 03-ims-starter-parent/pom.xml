@@ -16,7 +16,7 @@
         <groupId>eu.easygo-it.services</groupId>
         <artifactId>service-stack-parent</artifactId>
         <version>1.0.241015-S0946</version>
-        <relativePath>../../00-service-stack/01-service-stack-parent</relativePath>
+        <relativePath>../../01-service-core/01-service-stack-parent</relativePath>
     </parent>
 
     <distributionManagement>
