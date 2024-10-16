@@ -132,17 +132,19 @@ under the License.
         -->
         <server>
             <id>00-service-stack</id>
-            <username>EasyGo-Digital</username>
+<!--            <username>EasyGo-Digital</username>-->
+            <username>${env.USER_NAME}</username>
             <!-- Public token with `read:packages` scope -->
-            <password>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</password>
-<!--            <password>${env.GITHUB_TOKEN}</password>-->
+            <!-- <password>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</password> -->
+            <password>${env.GITHUB_TOKEN}</password>
         </server>
         <server>
             <id>01-service-core</id>
-            <username>EasyGo-Digital</username>
+            <!--            <username>EasyGo-Digital</username>-->
+            <username>${env.USER_NAME}</username>
             <!-- Public token with `read:packages` scope -->
-            <password>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</password>
-<!--            <password>${env.GITHUB_TOKEN}</password>-->
+            <!-- <password>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</password> -->
+            <password>${env.GITHUB_TOKEN}</password>
         </server>
     </servers>
 
