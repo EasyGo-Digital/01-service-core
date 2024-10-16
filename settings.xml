@@ -131,9 +131,14 @@ under the License.
         </server>
         -->
         <server>
-            <id>github</id>
+            <id>00-service-stack</id>
             <username>sami.mbarki@gmail.com</username>
-            <password>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</password>
+            <password>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</password>
+        </server>
+        <server>
+            <id>01-service-core</id>
+            <username>sami.mbarki@gmail.com</username>
+            <password>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</password>
         </server>
     </servers>
 
