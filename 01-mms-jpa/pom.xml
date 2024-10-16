@@ -64,8 +64,10 @@
             <url>https://maven.pkg.github.com/EasyGo-Digital/01-service-core</url>
             <snapshots>
                 <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
             </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
         </repository>
 
         <repository>
@@ -74,8 +76,10 @@
             <url>https://maven.pkg.github.com/EasyGo-Digital/00-service-stack</url>
             <snapshots>
                 <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
             </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
         </repository>
     </repositories>
 </project>

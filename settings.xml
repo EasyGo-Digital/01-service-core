@@ -132,13 +132,13 @@ under the License.
         -->
         <server>
             <id>00-service-stack</id>
-            <username>EasyGo-Digital</username>
-            <password>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</password>
+            <username>${env.USER_NAME}</username>
+            <password>${env.ACCESS_TOKEN}</password>
         </server>
         <server>
             <id>01-service-core</id>
-            <username>EasyGo-Digital</username>
-            <password>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</password>
+            <username>${env.USER_NAME}</username>
+            <password>${env.ACCESS_TOKEN}</password>
         </server>
     </servers>
 
