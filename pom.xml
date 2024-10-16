@@ -66,7 +66,7 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
+            <id>01-service-core</id>
             <name>GitHub EASYGO-IT Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/EasyGo-Digital/01-service-core</url>
         </repository>
