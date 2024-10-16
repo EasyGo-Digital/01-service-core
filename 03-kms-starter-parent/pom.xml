@@ -108,7 +108,7 @@
     <build>
         <resources>
             <resource>
-                <directory>../../10-key-management/04-kms-service/src/main/resources/resources</directory>
+                <directory>src/main/resources</directory>
                 <filtering>true</filtering>
                 <excludes>
                     <exclude>config/**/*.*</exclude>
