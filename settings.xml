@@ -133,11 +133,13 @@ under the License.
         <server>
             <id>00-service-stack</id>
             <username>EasyGo-Digital</username>
+            <!-- Public token with `read:packages` scope -->
             <password>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</password>
         </server>
         <server>
             <id>01-service-core</id>
             <username>EasyGo-Digital</username>
+            <!-- Public token with `read:packages` scope -->
             <password>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</password>
         </server>
     </servers>
