@@ -134,15 +134,15 @@ under the License.
             <id>00-service-stack</id>
             <username>EasyGo-Digital</username>
             <!-- Public token with `read:packages` scope -->
-            <!-- <password>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</password> -->
-            <password>${env.GITHUB_TOKEN}</password>
+            <password>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</password>
+<!--            <password>${env.GITHUB_TOKEN}</password>-->
         </server>
         <server>
             <id>01-service-core</id>
             <username>EasyGo-Digital</username>
             <!-- Public token with `read:packages` scope -->
-            <!-- <password>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</password> -->
-            <password>${env.GITHUB_TOKEN}</password>
+            <password>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</password>
+<!--            <password>${env.GITHUB_TOKEN}</password>-->
         </server>
     </servers>
 
