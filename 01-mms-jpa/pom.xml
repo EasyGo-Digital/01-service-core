@@ -62,12 +62,20 @@
             <id>github</id>
             <name>GitHub EASYGO-IT Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/EasyGo-Digital/01-service-core</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
         </repository>
 
         <repository>
             <id>github</id>
             <name>GitHub EASYGO-IT Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/EasyGo-Digital/00-service-stack</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
         </repository>
     </repositories>
 </project>
