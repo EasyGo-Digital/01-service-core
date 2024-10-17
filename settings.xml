@@ -133,14 +133,14 @@ under the License.
 
         <server>
             <id>00-service-stack</id>
-            <username>${env.USER_NAME}</username>
-            <password>${env.GITHUB_TOKEN}</password>
+            <username>EasyGo-Digital</username>
+            <password>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</password>
         </server>
 
         <server>
             <id>01-service-core</id>
-            <username>${env.USER_NAME}</username>
-            <password>${env.GITHUB_TOKEN}</password>
+            <username>EasyGo-Digital</username>
+            <password>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</password>
         </server>
     </servers>
 
