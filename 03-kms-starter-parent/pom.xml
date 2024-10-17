@@ -9,13 +9,13 @@
 
     <groupId>eu.easygo-it.services</groupId>
     <artifactId>key-management-starter-parent</artifactId>
-    <version>1.0.241015-S0946</version>
+    <version>1.0.241017-S0215</version>
     <packaging>jar</packaging>
 
     <parent>
         <groupId>eu.easygo-it.services</groupId>
         <artifactId>service-stack-parent</artifactId>
-        <version>1.0.241015-S0946</version>
+        <version>1.0.241017-S0215</version>
     </parent>
 
     <profiles>
@@ -64,22 +64,22 @@
         <dependency>
             <groupId>eu.easygo-it.services</groupId>
             <artifactId>key-management-jpa</artifactId>
-            <version>1.0.241015-S0946</version>
+            <version>1.0.241017-S0215</version>
         </dependency>
         <dependency>
             <groupId>eu.easygo-it.services</groupId>
             <artifactId>key-management-shared</artifactId>
-            <version>1.0.241015-S0946</version>
+            <version>1.0.241017-S0215</version>
         </dependency>
         <dependency>
             <groupId>eu.easygo-it.services</groupId>
             <artifactId>service-stack-web</artifactId>
-            <version>1.0.241015-S0946</version>
+            <version>1.0.241017-S0215</version>
         </dependency>
         <dependency>
             <groupId>eu.easygo-it.services</groupId>
             <artifactId>service-stack-crypt</artifactId>
-            <version>1.0.241015-S0946</version>
+            <version>1.0.241017-S0215</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.mchange/c3p0 -->
         <dependency>
@@ -90,18 +90,18 @@
         <dependency>
             <groupId>eu.easygo-it.services</groupId>
             <artifactId>service-stack-quartz</artifactId>
-            <version>1.0.241015-S0946</version>
+            <version>1.0.241017-S0215</version>
         </dependency>
         <dependency>
             <groupId>eu.easygo-it.services</groupId>
             <artifactId>messaging-management-shared</artifactId>
-            <version>1.0.241015-S0946</version>
+            <version>1.0.241017-S0215</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>eu.easygo-it.services</groupId>
             <artifactId>identity-management-shared</artifactId>
-            <version>1.0.241015-S0946</version>
+            <version>1.0.241017-S0215</version>
         </dependency>
     </dependencies>
 
@@ -120,9 +120,9 @@
         </plugins>
     </build>
 
-    <distributionManagement>
+        <distributionManagement>
         <repository>
-            <id>01-service-core</id>
+            <id>github</id>
             <name>GitHub EASYGO-IT Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/EasyGo-Digital/01-service-core</url>
         </repository>
@@ -130,27 +130,9 @@
 
     <repositories>
         <repository>
-            <id>00-service-stack</id>
+            <id>github</id>
             <name>GitHub EASYGO-IT Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/EasyGo-Digital/00-service-stack</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </repository>
-
-        <repository>
-            <id>01-service-core</id>
-            <name>GitHub EASYGO-IT Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/EasyGo-Digital/01-service-core</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
         </repository>
     </repositories>
 </project>
