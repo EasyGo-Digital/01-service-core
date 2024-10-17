@@ -56,9 +56,9 @@
 
     <repositories>
         <repository>
-            <id>01-service-core</id>
+            <id>00-service-stack</id>
             <name>GitHub EASYGO-IT Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/EasyGo-Digital/01-service-core</url>
+            <url>https://maven.pkg.github.com/EasyGo-Digital/00-service-stack</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -68,9 +68,9 @@
         </repository>
 
         <repository>
-            <id>00-service-stack</id>
+            <id>01-service-core</id>
             <name>GitHub EASYGO-IT Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/EasyGo-Digital/00-service-stack</url>
+            <url>https://maven.pkg.github.com/EasyGo-Digital/01-service-core</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
