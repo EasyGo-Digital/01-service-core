@@ -28,11 +28,11 @@ jobs:
     - name: Build with Maven
       run: mvn clean install -s settings.xml -T 8 -DskipTests=true
       env:
-        GITHUB_TOKEN: ${{secrets.dependency_download}}
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         USER_NAME: ${{github.actor}}
 
     - name: Publish to GitHub Packages Apache Maven
       run: mvn deploy -s settings.xml
       env:
-        GITHUB_TOKEN: ${{secrets.dependency_download}}
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         USER_NAME: ${{github.actor}}
