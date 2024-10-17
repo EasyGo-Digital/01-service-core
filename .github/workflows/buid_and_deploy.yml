@@ -32,7 +32,7 @@ jobs:
         USER_NAME: ${{github.actor}}
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+      run: mvn deploy -s settings.xml
       env:
         GITHUB_TOKEN: ${{secrets.dependency_download}}
         USER_NAME: ${{github.actor}}
