@@ -17,6 +17,11 @@
 
     <packaging>pom</packaging>
 
+    <properties>
+        <java.source.version>17</java.source.version>
+        <java.target.version>17</java.target.version>
+    </properties>
+
     <modules>
         <module>01-kms-jpa</module>
         <module>02-kms-shared</module>
@@ -48,6 +53,16 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>${java.source.version}</source>
+                    <target>${java.target.version}</target>
+                </configuration>
+            </plugin>
+
             <plugin>
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>3.1.1</version>
